@@ -1,0 +1,38 @@
+*{
+    margin:0;
+}
+body{
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  font-family: sans-serif;
+}
+.app{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    header{ 
+       background-color: lightblue; 
+       height: 100px;
+    }
+    .main{
+        display: flex;
+        flex-grow: 1;
+        .left{ 
+           background-color: lightgreen; 
+           width: 150px; 
+        } 
+        .middle{ 
+          background-color: lightyellow; 
+          flex-grow: 1;  
+        }
+        .right{ 
+          background-color: lightpink;
+           width: 150px;
+        }
+    }
+    footer{ 
+      background-color:lightcoral;
+      height: 100px; 
+    }
+}
