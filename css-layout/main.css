@@ -7,6 +7,8 @@ body{
   font-weight: 700;
   font-family: sans-serif;
 }
+
+/* CSS Nesting - Below code working only chrome, firefox and edge  */
 .app{
     display: flex;
     min-height: 100vh;
